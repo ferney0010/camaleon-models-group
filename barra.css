@@ -39,6 +39,7 @@
 }
 .container-bar .fa-instagram{
 	background: #5a15b4;
+    border-radius: 0px 0px 5px 0px;
 }
 
 .container-bar #title{
