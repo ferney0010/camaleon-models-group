@@ -19,7 +19,7 @@
 	line-height: 50px;
 	text-align: center;
 	text-decoration: none;
-	font-size: 24px;
+	font-size: 17px;
 	position: relative;
 	transition: all 500ms ease;
 	color: #fff;
@@ -38,7 +38,7 @@
 	background: #00acee;
 }
 .container-bar .fa-instagram{
-	background: #5a15b4;
+	background: 	#517fa4;
     border-radius: 0px 0px 5px 0px;
 }
 
