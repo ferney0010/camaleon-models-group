@@ -8,8 +8,8 @@
 	width: 100%;
 	max-width: 50px;
 	position: fixed;
-	left: 0;
-	top: 5%;
+	left: 1;
+	top: 10%;
     z-index: 2;
 }
 .container-bar a{
