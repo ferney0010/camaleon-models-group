@@ -17,6 +17,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     width: 100%;
 }
 
+.logo22{
+    margin-top: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .centrado{
     display: flex;
     justify-content: center;
