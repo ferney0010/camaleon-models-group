@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%23290000' fill-opacity='0.4'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.imagen22{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+
+.boton {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+    background: #0dc560;
+    color: aliceblue;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.nombre {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+}
+
+.cargo {
+    text-align: center;
+    color: lightslategray;
+    text-decoration: underline;
+}
+
+
+
+
+.container__cards{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    margin: 10px;
+    transition: all 400ms;
+}
+
+.card:hover{
+    width: 350px;
+}
+
+.card .cover{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card .cover img{
+    width: 250px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.5));
+    transition: all 400ms;
+}
+
+.card:hover .cover img{
+    top: 0px;
+    filter: none;
+}
+
+.card .img__back{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all 300ms;
+}
+
+.card:nth-of-type(1) .img__back{
+    background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
+}
+
+.card:nth-of-type(2) .img__back{
+    background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
+}
+
+.card:nth-of-type(3) .img__back{
+    background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
+}
+
+.card:nth-of-type(4) .img__back{
+    background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
+}
+
+.card:nth-of-type(5) .img__back{
+    background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
+}
+
+.card:nth-of-type(6) .img__back{
+    background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
+}
+
+.card:nth-of-type(7) .img__back{
+    background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
+}
+
+.card:nth-of-type(8) .img__back{
+    background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
+}
+
+.card:nth-of-type(9) .img__back{
+    background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
+}
+
+.card:hover .img__back{
+    bottom: -40px;
+}
+
+.card .description{
+    background: white;
+    margin-top: -10px;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    transition: all 300ms;
+}
+
+.card:hover .description{
+    padding: 40px;
+}
+
+.card .description h2{
+    margin-top: 10px;
+}
+
+.card .description p{
+    margin-top: 10px;
+}
+
+.card .description input{
+    padding: 10px 40px;
+    margin-top: 20px;
+    border: none;
+    background: #A6359D;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 300ms;
+}
+
+.card .description input:hover{
+    background: #83277b;
+}
