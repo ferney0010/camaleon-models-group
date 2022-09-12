@@ -155,6 +155,19 @@ p {
     background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
 }
 
+.card:nth-of-type(10) .img__back{
+    background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
+}
+
+
+.card:nth-of-type(11) .img__back{
+    background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
+}
+
+.card:nth-of-type(12) .img__back{
+    background-image: url(http://banco.camaleonmg.com/uploads/blank-black-and-gold-background-free-vector.webp);
+}
+
 .card:hover .img__back{
     bottom: -40px;
 }
