@@ -218,10 +218,19 @@ p {
 }
 
 .home{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     margin-top: 50px;
     width: 100%;
     
+}
+
+.footer{
+    color: #616161 ;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 50px;
+
 }
