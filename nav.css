@@ -21,14 +21,7 @@
     text-decoration: none;
   }
 
-  .title-head{
-    font-size: 16px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 70px;
-  }
+
   
   ul {
     padding-left: 50px;
