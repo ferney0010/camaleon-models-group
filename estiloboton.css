@@ -51,6 +51,14 @@ button:hover{
     font-size: 3rem;
 }
 
+.footer{
+    color: #616161 ;
+    font-size: 8px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
 
 
-@media all and (max-with: 460px)
+@media all and (max-with: 680px)
