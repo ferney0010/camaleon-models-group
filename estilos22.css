@@ -207,3 +207,21 @@ p {
 .card .description input:hover{
     background: #83277b;
 }
+
+
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+
+.home{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    
+}
