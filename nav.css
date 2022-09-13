@@ -19,12 +19,17 @@
     text-align: center;
     color: #fff;
     text-decoration: none;
+    font-size: medium;
   }
 
-
+.titu{
+    text-align: center;
+    color: #B27E11;
+    font-size: medium;
+    text-decoration: underline;
+}
   
   ul {
-    padding-left: 50px;
     list-style: none;
   }
 
