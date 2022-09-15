@@ -14,17 +14,17 @@
   }
   
   a {
-    margin-left: 10px;
+    margin-left: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
     color: #fff;
     text-decoration: none;
-    font-size: medium;
+    font-size: 14px;
   }
 
 .titu{
-    padding-top: 5px;
+    padding-left: 15px;
     text-align: center;
     color: #B27E11;
     font-size: 12px;
@@ -43,7 +43,8 @@
   }
   
   .container {
-    width: 90%;
+    padding-left: 15px;
+    width: 100%;
     margin: auto;
   }
   
@@ -96,6 +97,15 @@
     z-index: 2;
     display: none;
   }
+
+  .footer{
+    color: #616161 ;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
   
   
   /* Mobil */
@@ -154,4 +164,3 @@
     }
   }
   
-  @media (max-width: 500px) 
