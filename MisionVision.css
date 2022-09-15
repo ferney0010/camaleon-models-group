@@ -44,11 +44,16 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
+
+
+
 .redes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+    padding: 15px;
+}
+
+.home{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer{
@@ -76,8 +81,9 @@ h1 {
     
 }
 
+
 .footer{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 
