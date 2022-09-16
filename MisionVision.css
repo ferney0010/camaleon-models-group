@@ -15,7 +15,7 @@ body {
 h1 {
     padding: 20px;
     font-size: 50px;
-    color: rgb(194, 132, 0);
+    color: #fff1a5;
     text-decoration: underline;
 
 }
@@ -25,7 +25,16 @@ h1 {
 .mision-vision{
     border: 1px solid #616161;
     background-position: 100%;
+    box-shadow: 5px 5px #fff1a5;
    
+
+}
+
+.parrafos .mision-vision:hover{
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 5px 5px #fff1a5;
 
 }
 
