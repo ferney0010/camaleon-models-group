@@ -14,12 +14,14 @@ body {
 
 h1 {
     padding: 20px;
-    font-size: 50px;
+    font-size: 30px;
     color: #fff1a5;
-    text-decoration: underline;
 
 }
 
+.logo-parrafo{
+    width: 80px;
+}
 
 
 .mision-vision{
@@ -35,6 +37,7 @@ h1 {
     color: rgb(255, 255, 255);
     cursor: pointer;
     box-shadow: 5px 5px #fff1a5;
+    
 
 }
 
@@ -44,7 +47,9 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
     padding: 30px 100px;
     padding-bottom: 20px;
     border-radius: 30px;
@@ -57,7 +62,10 @@ h1 {
 
 
 .redes{
-    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
 .home{
@@ -79,7 +87,9 @@ h1 {
     .mision-vision{
         border: 1px solid #616161;
         background-position: 100%;    
-        margin: 0 10px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         padding: 15px 25px;
         display: flex;
         justify-content: center;
@@ -90,16 +100,19 @@ h1 {
     
 }
 
+.logo-parrafo{
+    width: 40px;
+}
 
 .footer{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
 
 h1 {
     padding: 10px;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 }
