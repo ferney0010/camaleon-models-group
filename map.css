@@ -21,6 +21,13 @@ body{
   font-size: px;
 }
 
+.descripcion{
+  margin: 10px;
+  text-align: center;
+  font-size: 24px;
+  color: antiquewhite;
+}
+
 .subtitulo{
 
     font-size: 30px;
@@ -29,7 +36,6 @@ body{
     margin-bottom: 15px;
     text-align: center;
     color: white;
-    text-decoration: underline;
 }
 
 .subtitulo:hover{
@@ -129,6 +135,11 @@ a {
   .actual-text{
         font-size: 22px;
   }
+
+.descripcion{
+  font-size: 16px;
+}
+
 
 .ubicacion{
   width: 100%;
