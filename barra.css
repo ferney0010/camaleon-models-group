@@ -100,4 +100,16 @@
 	color: rgb(202, 202, 202);
 	text-align: center;
   }
+
+  .boton-whatsapp{
+	margin: 10px  0;
+	display: flex;
+	justify-content: center;
+	border-radius: 30px;
+	padding: 10px 30px;
+	background-color: #25D366;
+	color: white;
+	text-decoration: none;
+	font-size: 28px;
+  }
   
